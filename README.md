@@ -1,4 +1,4 @@
-#WordPress Rest Api
+#WordPress Rest Api :fire:
 
 Well **Wordpress Rest Api** Will Give you the power to extract the specific data From Your Site Or any other site before this comes in you have to 
 be a php ninja to pull off all that data from any wordpress site that way you can create any thing with data.
