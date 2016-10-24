@@ -1,0 +1,50 @@
+.box{
+    border: 2px solid lightgrey;
+    width: 383px;
+    height: 500px;
+    margin: 0px auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.box ul li{
+    list-style: none;
+    background: #333;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    margin-right:10px;
+    border-radius:10px;
+}
+.box ul{
+    padding-left: 0px;
+    -webkit-margin-before: 0px;
+}
+.box ul li a{
+    color: white;
+    text-decoration: none;
+}
+.box ul li a:hover{
+    color: cyan;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom:5px;
+}
+h1{
+    text-align: center;
+}
