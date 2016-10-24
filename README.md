@@ -10,7 +10,7 @@ with WordPress Rest Api. REST stands for Representational state transfer and Api
 **WordPress Rest Api** Not Only Allows you to view the Data But also You have power to write new and delete old data that means you can
 do all that CRUD(Create,Update,Update,Delete) operation on data. 
 
-if you used code editor called Atom you check it if not because they have very cool native framework called **Electron** Atom is Based on that Framework and its basically build that native frame for your os and inside
+if you used code editor called :octocat:Atom you check it if not because they have very cool native framework called :octocat:**Electron** Atom is Based on that Framework and its basically build that native frame for your os and inside
 of that frame they run **complete web browser and its chrome so you get Everything** on top of that you can use node so its complete plus
 may be you can called this is the future of desktop apps. so why i tell you all this is because someone wrote a app called "Calypso" which
 takes a power of **WordPress Rest Api** and Create  desktop app with the help of Electron you should learn at lest give it a try to learn electron
