@@ -13,7 +13,7 @@ do all that CRUD(Create,Update,Update,Delete) operation on data.
 if you heard code editor called :octocat:Atom you should check it out. github have very cool native framework called :octocat:**Electron** Atom is Based on that Framework and its basically build that native frame for you and inside
 of that frame they run **complete web browser and its chrome so you get Everything** on top of that you can use node so its complete plus
 may be you can called this is the future of desktop apps. so why i tell you all this is because someone wrote a app called "Calypso" which
-takes a power of **WordPress Rest Api** and Create  desktop app with the help of Electron. you should learn at lest give it a try to learn electron.
+takes a power of **WordPress Rest Api** and Create  desktop app with the help of Electron. you should learn at least give it a try to learn electron.
 javascript now days you can almost anything with javascript is not about front end anymore with the help of node you can do anything from file
 access to Os related details to http request almost anything.
 
