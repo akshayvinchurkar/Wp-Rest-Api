@@ -18,7 +18,7 @@ Another software which may help you in your REST API journey is **Postman**, a c
 [WordPress REST API plugin](https://wordpress.org/plugins/json-rest-api/)
 
 If you are interested in Electron visit Github and follow jlord she is in the dev team of Atom to keep up with all the new updates. You can tweet me @AkshayKanya to discuss more about this.
-#Steps for tis tutorial
+##Steps for this tutorial
 
 1 ) Go To WordPress.org and Download latest WordPress version from there.
 
