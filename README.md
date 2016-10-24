@@ -30,3 +30,11 @@ data.
 
 if you more interested in Electron go github and search for jlord she is in the team of atom you can say she is more expert in that sense
 well if you want to talk to me you can go to twitter and find for @AkshayKanya i am there always
+
+#How To Try This Demo
+
+1 ) Go To WordPress.org and Download Latest version from there.
+
+2 ) Go [WordPress REST api plugin](https://wordpress.org/plugins/json-rest-api/) here and Download and install this plugin.
+
+3 ) simple you win the battle now drop this folder in your server root and have fun.
