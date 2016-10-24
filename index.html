@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>test data</title>
+    <meta name="description" content="">
+  </head>
+  <body>
+    <script type="text/javascript" src="jquery.js"></script>
+  	<script type="text/javascript">
+  		var settings = {
+		  "async": true,
+		  "crossDomain": true,
+		  "url": "http://localhost/testing/wp-json/wp/v2/posts",
+		  "method": "GET",
+		  "headers": {
+		    "cache-control": "no-cache",
+		    "postman-token": "9daf9fcc-0e5c-965e-ce56-fa927b1ea830"
+		  }
+		}
+
+		$.ajax(settings).done(function (response) {
+			$.each(response, function (index, value) {
+			  var link = value.link;
+			  document.write("<h3>" + index + value.title.rendered + "</h3>" + "<small>" + value.date + "</small>");
+			  document.write("<a " + "href = " + link + " > " + " Click For Reading " + "</a>");
+			});
+		});
+  	</script>
+  </body>
+</html>
