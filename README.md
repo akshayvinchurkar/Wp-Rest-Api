@@ -1,26 +1,20 @@
 #WordPress Rest Api :fire:
 
-Well :hatched_chick:**Wordpress Rest Api** Will Give you the power to extract the specific data From Your Site Or any other site before this comes in you have to 
-be a php ninja to pull off all that data from any wordpress site that way you can create any thing with data.
+Well :hatched_chick:**WordPress REST(REpresentational State Transfer) API(Application Programing Interface)** will give you the power to extract specific data from your site or any other site But before these APIs come out you better be a PHP Ninja to pull all that data from any WordPress site which will help you to create any thing with data.
 
-Ok Lets take Example you have a site that runs on **WordPress** and you have another site which is your portfolio site and you want to
-make a widget that shows your all latest posts that you publish on your **WordPress** site so what you do bump now you can do that
-with WordPress Rest Api. REST stands for Representational state transfer and Api obviously stands for application programing interface.
+Ok let's look at an example where you have a site that runs on **WordPress** and you have another site which is your portfolio site and you want to
+make a widget that shows all your latest posts that you publish on your **WordPress** site. Untill now this was pretty impossible to achieve but with the upcoming REST APIs this can be done in a single REST query. 
 
-**WordPress Rest Api** Not Only Allows you to view the Data But also You have power to write new and delete old data that means you can
-do all that CRUD(Create,Update,Update,Delete) operation on data. 
+**WordPress REST API** not only allows you to query the Data but, also you have power to write, modify and delete the data. That means these APIs support all the CRUD(Create, Read, Update, Delete) operations on data. 
 
-if you heard code editor called :octocat:Atom you should check it out. github have very cool native framework called :octocat:**Electron** Atom is Based on that Framework and its basically build that native frame for you and inside
-of that frame they run **complete web browser and its chrome so you get Everything** on top of that you can use node so its complete plus
-may be you can called this is the future of desktop apps. so why i tell you all this is because someone wrote a app called "Calypso" which
-takes a power of **WordPress Rest Api** and Create  desktop app with the help of Electron. you should learn at lest give it a try to learn electron.
-javascript now days you can almost anything with javascript is not about front end anymore with the help of node you can do anything from file
-access to Os related details to http request almost anything.
+If you have heard of code editor called :octocat:Atom you should check it out. Github has a cool native framework called :octocat:**Electron**, Atom is built on this native frame. The Electron framework runs a  **Web Browser called Chrome** which has the best compatibility and Node.js support. It's no harm in calling Electron as the future of Desktop Apps. The reason to discuss this is because someone developed an app called "Calypso" which
+takes a power of **WordPress REST API** and Electron framework. So, Be sure to check out this new emerging tech called Electron.
+With JavaScript now-a-days you can almost anything. JavaScript is not about front end anymore with the help of Node.js you can do anything from File
+access to Os related details to HTTP request.
 
-This is not just for javascript their is one more software which help you in your rest api journey which is **Postman** its chrome extension.
-that take your request and give you the response back so no more hedache that why my code dosnt work and it also give you code in various
-languages. that teach you how to get the correct response from REST Api Latest WordPress version comes with Rest Api inbuild before this you
-have to download a plugin which enable that feature for You in this small demo you can clearly see that i used postman for getting that
+Another software which may help you in your REST API journey is **Postman**, a chrome extension.
+that takes your request and returns the response, so no more headaches in debuging. It also has multilingual documentation that teaches you how to get the correct response from REST API. The latest WordPress version comes with REST API inbuilt, before this you
+have to download a plugin which enables that feature for you. In this I have used Postman for getting that
 data. 
 
 [download Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en-GB)
@@ -28,5 +22,4 @@ data.
 [Atom](https://atom.io/)
 [WordPress REST api plugin](https://wordpress.org/plugins/json-rest-api/)
 
-if you more interested in Electron go github and search for jlord she is in the team of atom you can say she is more expert in that sense
-well if you want to talk to me you can go to twitter and find for @AkshayKanya i am there always
+If you are interested in Electron visit Github and follow jlord she is in the dev team of Atom to keep up with all the new updates. You can tweet me @AkshayKanya to discuss more about this.
