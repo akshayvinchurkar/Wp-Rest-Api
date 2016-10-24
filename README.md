@@ -35,7 +35,7 @@ have to download a plugin which enable that feature for You. in this small demo 
 [If You Like its good code Editor Atom](https://atom.io/)
 [WordPress REST api plugin](https://wordpress.org/plugins/json-rest-api/)
 
-if you more interested in Electron go github and search for jlord she is in the team of atom you can say she is more expert in that sense
+if your interested in Electron go github and search for **jlord** she is in the team of atom you can say she is more expert in that sense
 well if you want to talk to me you can go to twitter and find for @AkshayKanya i am there always
 
 #How To Try This Demo
