@@ -25,3 +25,14 @@ If you are interested in Electron visit Github and follow jlord she is in the de
 2 ) Go [WordPress REST API plugin](https://wordpress.org/plugins/json-rest-api/) here and Download and install this plugin.
 
 3 ) Simple you win the battle now drop this folder in your server root and have fun.
+
+## How you Do All CRUD(Create, Read, Update, Delete) Operations?
+Why Authentication? authentication is required for crud operations its simple if you want to change your status on facebook you have your username and password combination. You can see your status from another account but you cant change it so its simple as that
+so lets see how we can do anything with our data i do this all localy and i use postman for all my request passing so lets get started
+
+1 ) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
+
+2 ) refer this url will teach you have to make ajax call to change the data [toturial link](https://code.tutsplus.com/tutorials/wp-rest-api-creating-updating-and-deleting-data--cms-24883).
+
+3 ) best of luck for your learning path :thumbsup:
+
