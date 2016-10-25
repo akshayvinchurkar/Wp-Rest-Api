@@ -45,12 +45,15 @@ so lets see how we can do anything with our data i do this all localy and i use 
 
 4 ) you can pass those parameter in three ways like json object or form data or url parameters. is it confusing ok lets make simple the 1st way json object you can write your post like this
 Write this in postman choose body and select the row radio button and copy paste this and see the changes in :point_up_2: this demo   
+
 {
 	  "title": "this is great post",
 	  "content": "this is the content",
 	  "status":"publish"
 }
+
 see this pic
+
 ![Alt text](/postman.jpg?raw=true "Optional Title")
 
 5 ) after successfull call postman give you 200 ok that means success :sweat_smile:
