@@ -32,7 +32,7 @@ Why authentication? Authentication is required for CRUD operations its simple if
 1) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
 
 2) Head over to Postman and create an empty post request to this url localhost/testing/wp-json/wp/v2/posts we are using localhost so this is my site in xampp. The request returns a response in JSON as follows:
-
+```
 {
   "code": "empty_content",
   "message": "Content, title, and excerpt are empty.",
@@ -40,18 +40,18 @@ Why authentication? Authentication is required for CRUD operations its simple if
     "status": 400
   }
 }
-
+```
 3) To create a new post you have to give it atleast three arguments, which are **Title, Content, excerpt**.
 
 4) You can pass these parameters in three ways like JSON object or form data or URL parameters. Is it confusing? Ok lets make this simple. Here's how you do it using JSON objects. You can write your post like this :
 Write this in Postman, choose body and select the row radio button and copy paste this and see the changes in :point_up_2: this demo   
-
+```
 {
 	  "title": "this is great post",
 	  "content": "this is the content",
 	  "status":"publish"
 }
-
+```
 ![Alt text](/postman.jpg?raw=true "Optional Title")
 
 5) After successfull call Postman gives you 200 OK response that means Success! :sweat_smile:
