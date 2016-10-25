@@ -26,14 +26,13 @@ If you are interested in Electron visit Github and follow jlord she is in the de
 
 3 ) Simple you win the battle now drop this folder in your server root and have fun.
 
-## How you Do All CRUD(Create, Read, Update, Delete) Operations?
-Why Authentication? authentication is required for crud operations its simple if you want to change your status on facebook you have your username and password combination. You can see your status from another account but you cant change it so its simple as that
-so lets see how we can do anything with our data i do this all localy and i use postman for all my request passing so lets get started
+## How to do CRUD(Create, Read, Update, Delete) Operations?
+Why authentication? Authentication is required for CRUD operations its simple if you want to change your status on Facebook you have your username and password combination. You can see your status from another account but you can't change it so its simple as that. Let's see how we can do the Read/Write operations with our data. Here we will do this localy using Postman for all the requests.
 
-1 ) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
+1) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
 
-2 )head over to postman and make a simple empty post request to this url localhost/testing/wp-json/wp/v2/posts i am on local so this is my site in xampp. now you get output like this its in json form.
-
+2) Head over to Postman and create an empty post request to this url localhost/testing/wp-json/wp/v2/posts we are using localhost so this is my site in xampp. The request returns a response in JSON as follows:
+```
 {
   "code": "empty_content",
   "message": "Content, title, and excerpt are empty.",
@@ -41,25 +40,23 @@ so lets see how we can do anything with our data i do this all localy and i use 
     "status": 400
   }
 }
+```
+3) To create a new post you have to give it atleast three arguments, which are **Title, Content, excerpt**.
 
-3 ) to create a new post you have to atlest give it three arguments which is **Title, Content, excerpt**. ok i see that but how?
-
-4 ) you can pass those parameter in three ways like json object or form data or url parameters. is it confusing ok lets make simple the 1st way json object you can write your post like this
-Write this in postman choose body and select the row radio button and copy paste this and see the changes in :point_up_2: this demo   
-
+4) You can pass these parameters in three ways like JSON object or form data or URL parameters. Is it confusing? Ok lets make this simple. Here's how you do it using JSON objects. You can write your post like this :
+Write this in Postman, choose body and select the row radio button and copy paste this and see the changes in :point_up_2: this demo   
+```
 {
 	  "title": "this is great post",
 	  "content": "this is the content",
 	  "status":"publish"
 }
-
-see this pic
-
+```
 ![Alt text](/postman.jpg?raw=true "Optional Title")
 
-5 ) after successfull call postman give you 200 ok that means success :sweat_smile:
+5) After successfull call Postman gives you 200 OK response that means Success! :sweat_smile:
 
-6 ) that was just one example for more refer this url will teach you have to make ajax call to change the data [tutorial link](https://code.tutsplus.com/tutorials/wp-rest-api-creating-updating-and-deleting-data--cms-24883).
+6) That was just one example for more refer this link. It will teach you how to make AJAX calls to change the data [tutorial link](https://code.tutsplus.com/tutorials/wp-rest-api-creating-updating-and-deleting-data--cms-24883).
 
-7 ) best of luck for your learning path :thumbsup:
+7) Best of luck. :thumbsup:
 
