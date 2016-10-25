@@ -1,6 +1,6 @@
 #WordPress Rest Api :fire:
 
-Well :hatched_chick:**WordPress REST(Representational State Transfer) Api(Application Programing Interface)** will give you the power to extract specific data from your site or any other site But before these APIs come out you better be a PHP Ninja to pull all that data from any WordPress site which will help you to create any thing with data.
+Well :hatched_chick:**WordPress REST(Representational State Transfer) Api(Application Programing Interface)** will give you the power to extract specific data from your site or any other site and do anything with that data. But before these APIs come out you better be a PHP Ninja to pull all that data from any WordPress site which will help you to create any thing with data.
 
 Ok let's look at an example where you have a site that runs on **WordPress** and you have another site which is your portfolio site and you want to make a widget that shows all your latest posts that you publish on your **WordPress** site. Untill now this was pretty impossible to achieve but with the upcoming REST APIs this can be done in a single REST query. 
 
