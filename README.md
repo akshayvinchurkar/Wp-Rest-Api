@@ -32,7 +32,30 @@ so lets see how we can do anything with our data i do this all localy and i use 
 
 1 ) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
 
-2 ) refer this url will teach you have to make ajax call to change the data [toturial link](https://code.tutsplus.com/tutorials/wp-rest-api-creating-updating-and-deleting-data--cms-24883).
+2 )head over to postman and make a simple empty post request to this url localhost/testing/wp-json/wp/v2/posts i am on local so this is my site in xampp. now you get output like this its in json form.
+{
+  "code": "empty_content",
+  "message": "Content, title, and excerpt are empty.",
+  "data": {
+    "status": 400
+  }
+}
 
-3 ) best of luck for your learning path :thumbsup:
+3 ) to create a new post you have to atlest give it three arguments which is **Title, Content, excerpt**. ok i see that but how?
+
+4 ) you can pass those parameter in three ways like json object or form data or url parameters. is it confusing ok lets make simple the 1st way json object you can write your post like this
+Write this in postman choose body and select the row radio button and copy paste this and see the changes in :point_up_2: this demo   
+{
+	  "title": "this is great post",
+	  "content": "this is the content",
+	  "status":"publish"
+}
+see this pic
+![Alt text](/postman.jpg?raw=true "Optional Title")
+
+5 ) after successfull call postman give you 200 ok that means success :sweat_smile:
+
+6 ) that was just one example for more refer this url will teach you have to make ajax call to change the data [tutorial link](https://code.tutsplus.com/tutorials/wp-rest-api-creating-updating-and-deleting-data--cms-24883).
+
+7 ) best of luck for your learning path :thumbsup:
 
