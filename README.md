@@ -33,6 +33,7 @@ so lets see how we can do anything with our data i do this all localy and i use 
 1 ) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
 
 2 )head over to postman and make a simple empty post request to this url localhost/testing/wp-json/wp/v2/posts i am on local so this is my site in xampp. now you get output like this its in json form.
+
 {
   "code": "empty_content",
   "message": "Content, title, and excerpt are empty.",
