@@ -60,3 +60,4 @@ Write this in Postman, choose body and select the row radio button and copy past
 
 7) Best of luck. :thumbsup:
 
+if you trying to understand REST Api is almost same on all platforms i mean twitter api or facebook api for your test type this in your browser window http://graph.facebook.com/youtube you will get error message in json format that you need authentication to query that data so see its same sign in + authenticate + query your data and or defind your own endpoints or plug them in to another api request for example get the current Latitude and Longitude from google map api and plug thos cordinates into instagram api request and you get the photos that use the geolocation feature and tag. if you learning Web development or Front End Development its better to understand this cool tech. 
