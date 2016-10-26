@@ -27,7 +27,7 @@ If you are interested in Electron visit Github and follow jlord she is in the de
 3 ) Simple you win the battle now drop this folder in your server root and have fun.
 
 ## How to do CRUD(Create, Read, Update, Delete) Operations?
-Why authentication? Authentication is required for CRUD operations its simple if you want to change your status on Facebook you have your username and password combination. You can see your status from another account but you can't change it so its simple as that. Let's see how we can do the Read/Write operations with our data. Here we will do this localy using Postman for all the requests.
+Why authentication? Authentication is required for CRUD operations its simple if you want to change your status on Facebook you have your username and password combination. You can see your status from another account but you can't change it so its simple as that.in offcial documentation Wordpress says you have two types of authentication 1st one is OAuth2 authentication and 2nd one is cookie based authentication if you build online website and you use Wordpress Rest Api you can use cookie based authentication and if your developing a desktop application kind of offline/online application then use OAuth2. Let's see how we can do the Read/Write operations with our data. Here we will do this localy using Postman for all the requests.
 
 1) You have to Download simple plugin called [Basic Auth](https://github.com/WP-API/Basic-Auth) from this link and install it and activate that. simple
 
