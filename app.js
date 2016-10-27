@@ -1,8 +1,17 @@
+/*
+* Author : Akshay Vinchurkar
+* Programe : This is Simple Programe that list your local wordpress istallation posts
+*/
+
 $(function(){
     //so well this is array of settings you have to specify this you can remove that headers if you want
     var settings = {
       "async": true,
       "crossDomain": true,
+        
+      //change your sitename         
+      //like localhost/yoursitename/wp-json/wp/v2/posts
+        
       "url": "http://localhost/testing/wp-json/wp/v2/posts",
       "method": "GET",
       "headers": {
