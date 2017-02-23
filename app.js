@@ -1,6 +1,6 @@
 /*
 * Author : Akshay Vinchurkar
-* Programe : This is Simple Programe that list your local wordpress istallation posts
+* Programe : This is Simple Programe that list your local Wordpress installation posts
 */
 
 $(function(){
